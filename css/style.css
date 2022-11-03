@@ -3,7 +3,8 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: sans-serif;
+    font-family: "Prompt" , sans-serif;
+
     
     
 }
@@ -309,22 +310,29 @@ section{
 /*list*/
 ul{
     list-style-type: none;
+    cursor: pointer;
 }
 li{
     color: rgb(255, 255, 255);
     font-weight: 550;
     line-height: 30px;
     font-size: 18px;
+    cursor: pointer;
 }
 h3{
     color: rgb(114,137,218);
     margin-top: 5px;
     padding-bottom: 5px;
+    cursor: pointer;
 }
 .registration{
     color: rgb(255, 255, 255);
     background-color: rgb(114,137,218);
     padding-left: 0 15px;
     font-size: 14px;
+    cursor: pointer;
     
+}
+i{
+    cursor: pointer;
 }
