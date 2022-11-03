@@ -22,13 +22,18 @@ button{
 .br{
     color: aliceblue;
 }
+.container{
+
+}
 
 /*header*/
 
 header{
-    background-color:rgb(173,216,229) ;
+    background-image: url(../img/jumbo.png);
+    background-size: 100%;
     min-height: 500px;
     padding-top: 15px;
+   /* background-image: url(../img/jumbo.png);*/
 }
 .container-navbar{
     max-width: 1200px;
@@ -36,13 +41,14 @@ header{
     border: 2px dashed rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
-    background-color: rgb(218,165,32);
+    
     text-align: center;
     justify-content: space-between;
     padding: 10px;
     font-size: 25px;
    
 }
+
 .h-link{
     border: 2px dashed rgb(0, 0, 0);
     padding: 10px;
@@ -60,7 +66,7 @@ header{
 .container-h-cover{
     margin-top: 15px;
     min-height: 500px;
-    background-color: rgb(0,32,139);
+    margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -72,7 +78,6 @@ header{
 .h-cover{
    min-width: 900px;
    height: 400px;
-   background-color: rgb(238,130,238);
    border: 2px dashed rgb(0, 0, 0);
    
 }
