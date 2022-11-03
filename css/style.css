@@ -3,21 +3,32 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: arial;
-    font-size: 25px;
+    font-family: sans-serif;
+    
     
 }
 /*utilities*/
+h1{
+    font-size: 55px;
 
+}
+p{
+   font-weight: 550;
+   line-height: 30px;
+   font-size: 18px;
+}
 a{
     text-decoration: none;
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    margin: 30px;
 }
 button{
-    background-color: rgb(218,165,32);
-    border:  rgb(218,165,32);
-    font-size: 25px;
-    
+    background-color: rgb(255, 255, 255);
+    font-size: 13px;
+    padding: 7px;
+    border-radius: 15px;
+    border: rgb(255, 255, 255);
+    cursor: pointer;
 }
 .br{
     color: aliceblue;
@@ -31,35 +42,40 @@ button{
 header{
     background-image: url(../img/jumbo.png);
     background-size: 100%;
-    min-height: 500px;
+    background-repeat: no-repeat;
+    height: 650px;
     padding-top: 15px;
-   /* background-image: url(../img/jumbo.png);*/
+   
 }
 .container-navbar{
     max-width: 1200px;
     margin: 0 auto;
-    border: 2px dashed rgb(0, 0, 0);
     display: flex;
     flex-wrap: wrap;
-    
     text-align: center;
     justify-content: space-between;
     padding: 10px;
-    font-size: 25px;
+    font-size: 18px;
+    
    
 }
 
 .h-link{
-    border: 2px dashed rgb(0, 0, 0);
-    padding: 10px;
+    color: rgb(255, 255, 255);
+    padding: 15px;
+    
+    
+    
 }
 .h-logo{
-    border: 2px dashed rgb(0, 0, 0);
+    
     padding: 10px;
 }
 .h-login{
-    border: 2px dashed rgb(0, 0, 0);
-    padding: 10px;
+    
+    padding-top: 12px;
+    
+    
 }
 
 
@@ -71,15 +87,39 @@ header{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
+    padding-left: 50px;
     
     
 }
 
 .h-cover{
-   min-width: 900px;
+   width: 750px;
    height: 400px;
-   border: 2px dashed rgb(0, 0, 0);
+   color: rgb(255, 255, 255);
+   text-align: center;
+   padding-top: 40px;
    
+}
+
+.h-h1{
+    margin-bottom: 45px;
+}
+.mac-dwn{
+    background-color: rgb(255, 255, 255);
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    border: rgb(255, 255, 255);
+    margin-top: 30px;
+    margin-right: 30px;
+}
+.browser-op{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255,255,255);
+    font-size: 18px;
+    padding: 15px;
+    border-radius: 30px;
+    border: rgb(255, 255, 255);
 }
 /*main*/
 
