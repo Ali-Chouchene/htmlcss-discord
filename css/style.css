@@ -1,0 +1,201 @@
+/* css reset*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: arial;
+    font-size: 25px;
+    
+}
+/*utilities*/
+
+a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+button{
+    background-color: rgb(218,165,32);
+    border:  rgb(218,165,32);
+    font-size: 25px;
+    
+}
+.br{
+    color: aliceblue;
+}
+
+/*header*/
+
+header{
+    background-color:rgb(173,216,229) ;
+    min-height: 500px;
+    padding-top: 15px;
+}
+.container-navbar{
+    max-width: 1200px;
+    margin: 0 auto;
+    border: 2px dashed rgb(0, 0, 0);
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(218,165,32);
+    text-align: center;
+    justify-content: space-between;
+    padding: 10px;
+    font-size: 25px;
+   
+}
+.h-link{
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 10px;
+}
+.h-logo{
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 10px;
+}
+.h-login{
+    border: 2px dashed rgb(0, 0, 0);
+    padding: 10px;
+}
+
+
+.container-h-cover{
+    margin-top: 15px;
+    min-height: 500px;
+    background-color: rgb(0,32,139);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    
+}
+
+.h-cover{
+   min-width: 900px;
+   height: 400px;
+   background-color: rgb(238,130,238);
+   border: 2px dashed rgb(0, 0, 0);
+   
+}
+/*main*/
+
+/*containers*/
+.container-white{
+    background-color: rgb(255, 255, 255);
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+    
+    
+}
+.container-grey{
+    background-color: rgb(211,211,211);
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container-big-grey{
+    background-color: rgb(211,211,211);
+    min-width: 1200px;
+    min-height: 1000px;
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.container-big-black{
+    background-color:rgb(34,39,42) ;
+    min-width: 1200px;
+    min-height: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 10px;
+    
+}
+
+
+/* boxes */
+.blue-box{
+    min-width: 700px;
+    min-height: 500px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(31,144,255);
+    align-self: flex-start;
+
+
+}
+.pink-box{
+    min-width: 500px;
+    min-height: 500px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(255,192,203);
+    align-self: flex-start;
+
+}
+
+.green-box{
+    min-width: 1200px;
+    min-height: 900px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color:rgb(34,139,34) ;
+    align-self: flex-start;
+
+}
+.marine-box{
+    min-width: 215px;
+    min-height: 550px;
+    border: 2px dashed rgb(255, 255, 255);
+    background-color:rgb(33,178,170) ;
+    align-self: flex-start;
+}
+
+.red-box{
+    min-width: 340px;
+    min-height: 550px;
+    border: 2px dashed rgb(0, 0, 0);
+    background-color:rgb(239,128,128) ;
+    align-self: flex-start;
+}
+
+/*footer*/
+
+.container-footer{
+    background-color: rgb(34,39,42);
+    min-width: 1200px;
+    min-height: 100px;
+    display: flex;
+    justify-content: center;
+    
+}
+.footer-navbar{
+    background-color: rgb(128,254,212);
+    width: 1200px;
+    height: 80px;
+    align-self: flex-end;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.footer-logo{
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(255,182,193);
+    height: 40px;
+    width: 70px;
+    text-align: center;
+    align-self: center;
+}
+.footer-button{
+    border: 2px dashed rgb(0, 0, 0);
+    background-color: rgb(255,182,193);
+    height: 40px;
+    width: 100px;
+    text-align: center;
+    align-self: center;
+}
