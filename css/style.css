@@ -9,7 +9,7 @@
 }
 /*utilities*/
 h1{
-    font-size: 55px;
+    font-size: 50px;
 
 }
 p{
@@ -57,14 +57,11 @@ header{
     padding: 10px;
     font-size: 18px;
     
-   
 }
 
 .h-link{
     color: rgb(255, 255, 255);
     padding: 15px;
-    
-    
     
 }
 .h-logo{
@@ -72,12 +69,11 @@ header{
     padding: 10px;
 }
 .h-login{
-    
+
     padding-top: 12px;
     
     
 }
-
 
 .container-h-cover{
     margin-top: 15px;
@@ -88,7 +84,6 @@ header{
     justify-content: center;
     align-items: center;
     padding-left: 50px;
-    
     
 }
 
@@ -102,7 +97,7 @@ header{
 }
 
 .h-h1{
-    margin-bottom: 45px;
+    margin-bottom: 40px;
 }
 .mac-dwn{
     background-color: rgb(255, 255, 255);
@@ -122,12 +117,18 @@ header{
     border: rgb(255, 255, 255);
 }
 /*main*/
+section{
+    color: rgb(34,39,42);
+}
+.section-h1{
+    margin-bottom: 30px;
+}
 
 /*containers*/
 .container-white{
     background-color: rgb(255, 255, 255);
     min-width: 1200px;
-    min-height: 600px;
+    min-height: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -138,7 +139,7 @@ header{
 .container-grey{
     background-color: rgb(211,211,211);
     min-width: 1200px;
-    min-height: 600px;
+    min-height: 800px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -166,20 +167,19 @@ header{
 
 /* boxes */
 .blue-box{
-    min-width: 700px;
-    min-height: 500px;
-    border: 2px dashed rgb(0, 0, 0);
-    background-color: rgb(31,144,255);
-    align-self: flex-start;
-
-
+    display: flex;
+    width: 800px;
+    height: 500px;
+    align-self: center;
+    border: 2px dashed black;
 }
 .pink-box{
-    min-width: 500px;
+    width: 400px;
     min-height: 500px;
-    border: 2px dashed rgb(0, 0, 0);
-    background-color: rgb(255,192,203);
-    align-self: flex-start;
+    align-self: center;
+    padding-right: 45px;
+    padding-top: 40px;
+    border: 2px dashed black;
 
 }
 
